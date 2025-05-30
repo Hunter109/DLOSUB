@@ -31,8 +31,6 @@
     --transparent: rgba(0, 0, 0, 0.2);
 }
 
-
-
 li {
     list-style: none;
 }
@@ -43,6 +41,10 @@ a {
 
 header {
     background-color: black;
+    background: #01262c;
+    background-image: radial-gradient(ellipse 60% 100% at 40% -20%,
+            rgba(24, 79, 45, 1),
+            rgba(2, 58, 50, 0));
     color: var(--basic);
     padding: 6px;
 }
@@ -106,10 +108,7 @@ nav {
     font-weight: 500;
     font-size: 18px;
     transition: all 0.3s ease;
-
 }
-
-
 
 .navbar .nav-links>ul>li:first-child {
     background-color: black;
@@ -250,6 +249,83 @@ nav {
     }
 }
 
+.about .about-us {
+    background-image: url(../image/whyus.png);
+    background-position: bottom;
+    background-size: cover;
+    padding: 1rem;
+    height: auto;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.about .about-us h3 {
+    font-size: 1.5rem;
+    /* 24px */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1.5rem;
+}
+
+/* Success container */
+.about .about-us .sucess {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/* Success items */
+.about .about-us .sucess div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 120px;
+}
+
+.about .about-us .sucess div span {
+    font-size: 1rem;
+    /* 16px */
+    font-weight: 500;
+}
+
+.about .about-us .sucess div i {
+    font-size: 2rem;
+    /* 32px */
+}
+
+/* Responsive font scaling */
+@media (min-width: 640px) {
+    .about .about-us h3 {
+        font-size: 1.75rem;
+        /* 28px */
+    }
+
+    .about .about-us .sucess div span {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .about .about-us h3 {
+        font-size: 2rem;
+        /* 32px */
+    }
+
+    .about .about-us .sucess {
+        gap: 4rem;
+    }
+}
+
 
 /* footer style start */
 .footer-container {
@@ -266,6 +342,11 @@ nav {
 
 .footer {
     background-color: black;
+
+    background: #01262c;
+    background-image: radial-gradient(ellipse 60% 100% at 40% -20%,
+            rgba(24, 79, 45, 1),
+            rgba(2, 58, 50, 0));
     padding: 15px 0;
     line-height: 1.5;
 }
@@ -393,13 +474,10 @@ nav {
         font-size: 14px;
     }
 
-
     .footer-col ul {
         /* text-align: ; */
         padding-left: 0;
     }
-
-
 }
 
 /* footer style end */
