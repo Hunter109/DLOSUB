@@ -24,3 +24,12 @@ VanillaTilt.init(document.querySelectorAll(".card"), {
     reset: false,
 
 });
+
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+    disable: function () {
+        return window.innerWidth < 840; // disables AOS on screens smaller than 768px
+    }
+});
