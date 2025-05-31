@@ -15,3 +15,12 @@ logoLink.addEventListener('click', () => {
     window.location.href = '/index.html'
 }
 )
+
+
+//crad tilt
+VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 25,
+    speed: 400,
+    reset: false,
+
+});

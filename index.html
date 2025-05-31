@@ -11,6 +11,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script> -->
 
 
@@ -84,6 +85,9 @@
 
     <main>
 
+
+        <!-- Hero section   -->
+
         <div
             class="flex  bg-[#01262c] bg-[radial-gradient(ellipse_60%_100%_at_40%_-20%,rgba(24,79,45,1),rgba(2,58,50,0))] text-white  sm:flex-col  relative h-[100vh] ">
             <div class="w-full flex flex-col sm:flex-row items-start sm:items-center sm:justify-between px-4">
@@ -130,64 +134,62 @@
 
                 <!-- Image Section -->
                 <img src="https://www.princecodes.online/mainIconsdark.svg"
-                    class="hidden sm:block sm:h-[39rem] md:max-w-md lg:max-w-screen-xl	  " alt="Tech Stack"
-                    data-aos="zoom-in-left" />
+                    class="hidden sm:block sm:h-[39rem] md:max-w-md lg:max-w-screen-xl	  " alt="Tech Stack" />
             </div>
 
 
 
         </div>
+        <!-- Hero section  end -->
 
 
-
-
-
+        <!-- service we offer  -->
 
         <section class="py-12 bg-gray-100 text-gray-900">
             <div class="max-w-6xl mx-auto px-4">
-                <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-12 text-red-500">
+                <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-12 text-red-500 ">
                     Services We Offer for Decentralized Land Ownership
                 </h2>
 
 
                 <div class="grid md:grid-cols-3 gap-8">
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">🏛️</div>
                         <h3 class="text-xl font-semibold mb-2">Blockchain Land Registry</h3>
                         <p class="text-gray-700">Securely records land ownership on the blockchain, ensuring immutable,
                             transparent, and verifiable property titles.</p>
                     </div>
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">🔒</div>
                         <h3 class="text-xl font-semibold mb-2">Tamper-Proof Ownership</h3>
                         <p class="text-gray-700">Prevents unauthorized alterations to property records using
                             cryptographic validation and smart contracts.</p>
                     </div>
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">👥</div>
                         <h3 class="text-xl font-semibold mb-2">Owner Verification</h3>
                         <p class="text-gray-700">Enables instant and secure verification of landowners through
                             decentralized on-chain records.</p>
                     </div>
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">🌐</div>
                         <h3 class="text-xl font-semibold mb-2">Geo-Mapped Land Records</h3>
                         <p class="text-gray-700">Integrates geographic data with blockchain to visualize land ownership
                             and boundaries in real-time.</p>
                     </div>
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">⚖️</div>
                         <h3 class="text-xl font-semibold mb-2">Fraud & Dispute Resolution</h3>
                         <p class="text-gray-700">Reduces fraud and ownership disputes by maintaining a single source of
                             truth verified by the network.</p>
                     </div>
 
-                    <div class="p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
+                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white">
                         <div class="text-red-500 mb-2 text-3xl">📄</div>
                         <h3 class="text-xl font-semibold mb-2">Legal & Regulatory Compliance</h3>
                         <p class="text-gray-700">Ensures compliance with government land ownership regulations using
@@ -198,9 +200,10 @@
             </div>
         </section>
 
+        <!-- service we offer end  -->
 
 
-
+        <!-- why dlosub  -->
         <div class="about">
             <div class="about-us">
                 <h3> LAND OWNERSHIP VERIFICATION PLATFORM 🛡️</h3>
@@ -232,9 +235,127 @@
 
             </div>
         </div>
+        <!-- why dlosub end here  -->
 
 
-        <!-- Hero section  end -->
+
+        <!-- How It Works -->
+
+        <section class="bg-gray-100 py-20 px-4">
+            <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+
+                <!-- Timeline Content -->
+                <div class="flex-1">
+                    <h2 class="text-4xl font-bold text-center lg:text-left text-red-500 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500"
+                        data-aos="fade-up">
+                        How It Works
+                    </h2>
+                    <p class="text-center lg:text-left text-gray-700 mb-12 text-lg" data-aos="fade-up"
+                        data-aos-delay="100">
+                        Our decentralized land ownership platform simplifies property transactions with blockchain
+                        technology.
+                    </p>
+
+                    <!-- Timeline Steps -->
+                    <!-- Timeline Steps with vertical line -->
+                    <div class="relative pl-10 flex flex-col gap-12 border-l-4 border-red-500 ">
+
+                        <!-- Step 1 -->
+                        <div class="relative flex items-start gap-6" data-aos="fade-up" data-aos-delay="150">
+                            <!-- Circle Checkpoint -->
+                            <div
+                                class="absolute -left-[54px] top-3.5 w-6 h-6 bg-white border-4 border-red-500 rounded-full z-10">
+                            </div>
+                            <div
+                                class="bg-gradient-to-r from-red-500 to-yellow-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-md shrink-0">
+                                👤
+                            </div>
+                            <div>
+                                <h3
+                                    class="text-2xl font-semibold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500">
+                                    Create an Account</h3>
+                                <p class="text-gray-700 text-base">Sign up and verify your identity to get started with
+                                    decentralized land ownership.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="relative flex items-start gap-6" data-aos="fade-up" data-aos-delay="200">
+                            <div
+                                class="absolute -left-[54px] top-3.5 w-6 h-6 bg-white border-4 border-red-500 rounded-full z-10">
+                            </div>
+                            <div
+                                class="bg-gradient-to-r from-red-500 to-yellow-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-md shrink-0">
+                                💼
+                            </div>
+                            <div>
+                                <h3
+                                    class="text-2xl font-semibold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500">
+                                    Connect Wallet</h3>
+                                <p class="text-gray-700 text-base">Link your blockchain wallet to securely manage your
+                                    land transactions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="relative flex items-start gap-6" data-aos="fade-up" data-aos-delay="250">
+                            <div
+                                class="absolute -left-[54px] top-3.5 w-6 h-6 bg-white border-4 border-red-500 rounded-full z-10">
+                            </div>
+                            <div
+                                class="bg-gradient-to-r from-red-500 to-yellow-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-md shrink-0">
+                                🔍
+                            </div>
+                            <div>
+                                <h3
+                                    class="text-2xl font-semibold  text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500">
+                                    Browse Properties</h3>
+                                <p class="text-gray-700 text-base">Explore available land parcels with verified
+                                    blockchain ownership records.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="relative flex items-start gap-6" data-aos="fade-up" data-aos-delay="300">
+                            <div
+                                class="absolute -left-[54px] top-3.5 w-6 h-6 bg-white border-4 border-red-500 rounded-full z-10">
+                            </div>
+                            <div
+                                class="bg-gradient-to-r from-red-500 to-yellow-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-md shrink-0">
+                                🏞️
+                            </div>
+                            <div>
+                                <h3
+                                    class="text-2xl font-semibold text-gray-900 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500">
+                                    Purchase Land</h3>
+                                <p class="text-gray-700 text-base">Buy land with cryptocurrency. Ownership transfers
+                                    securely on the blockchain.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="mt-10 lg:mt-14" data-aos="zoom-in" data-aos-delay="400">
+                        <a href="#register"
+                            class="inline-block bg-gradient-to-r from-red-500 to-yellow-500 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-md hover:from-yellow-500 hover:to-red-500 transition duration-300">
+                            Get Started with DLOSUB
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Illustration Image -->
+                <div class="flex-1 " data-aos="fade-left" data-aos-delay="300">
+                    <img src="./landing/assets/image/Technology Illustration.svg" alt="Technology Illustration"
+                        class="w-full h-auto max-w-md mx-auto lg:mx-0 " />
+                </div>
+            </div>
+        </section>
+        <!-- How It Works end  -->
+
+
+
+
+
 
     </main>
 
@@ -315,7 +436,12 @@
 
     <!-- FOOTER CONTAINER END  -->
 
+    <script src="./landing/assets/js/vanilla-tilt.js"></script>
     <script src="./landing/assets/js/navbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
