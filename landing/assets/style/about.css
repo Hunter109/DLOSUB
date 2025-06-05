@@ -82,8 +82,9 @@
 
 .motivation .col2 img {
     height: 25rem;
-    background-color: #123962;
-    border-radius: 50%;
+    /* background-color: #123962; */
+    /* background-color: #F78B02; */
+    /* border-radius: 50%; */
     /* overflow-y: hidden; */
 }
 
@@ -91,7 +92,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #123962;
+    background-color: #626160;
     color: #ffffff;
     padding: 30px 55px;
     flex-wrap: wrap;
