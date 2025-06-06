@@ -483,8 +483,8 @@ footer .footer-col4 ul li i {
 
 .card:hover {
     color: #F78B02;
-    scale: 1.1;
     transition: all 500ms ease-in-out;
+    scale: 1.1;
     background-color: #FFF3E6;
 
 }

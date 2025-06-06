@@ -82,10 +82,7 @@
 
 .motivation .col2 img {
     height: 25rem;
-    /* background-color: #123962; */
-    /* background-color: #F78B02; */
-    /* border-radius: 50%; */
-    /* overflow-y: hidden; */
+
 }
 
 .learnmore {
@@ -109,7 +106,7 @@
     height: 15rem;
 }
 
-button {
+.learnmore button {
     margin: 20px 15px;
     text-align: center;
     /* background-color: #15803d; */
@@ -119,8 +116,13 @@ button {
     color: #ffffff;
     padding: 15px 40px;
     cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
 
+.learnmore button:hover {
+    background-color: white;
+    color: #F28C28;
+}
 
 
 
