@@ -19,7 +19,7 @@ logoLink.addEventListener('click', () => {
 
 //crad tilt
 VanillaTilt.init(document.querySelectorAll(".card"), {
-    max: 25,
+    max: 30,
     speed: 400,
     reset: false,
 
@@ -35,3 +35,19 @@ AOS.init({
         return window.innerWidth < 840; // disables AOS on screens smaller than 768px
     }
 });
+
+
+
+
+let exploreScroll = document.querySelector("#Explore-btn");
+
+exploreScroll.addEventListener("click", (event) => {
+
+    document.getElementById("works").scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+    })
+
+});
+
+

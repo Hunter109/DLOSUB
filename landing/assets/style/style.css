@@ -96,6 +96,30 @@ nav {
     outline-offset: 2px;
 
 } */
+.navbar .nav-links>ul>li>.hov-line {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar .nav-links>ul>li>.hov-line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 3px;
+    background-color: #F78B02;
+    transition: width .5s ease-in-out;
+}
+
+.navbar .nav-links>ul>li:hover>.hov-line::after {
+    width: 100%;
+}
+
+.navbar .nav-links>ul>li.active>.hov-line::after {
+    width: 100%;
+}
 
 .navbar .nav-links>ul>li:first-child {
     background-color: #123962;

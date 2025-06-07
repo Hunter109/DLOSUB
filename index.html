@@ -50,12 +50,12 @@
 
                 <ul>
                     <li><a href="./landing/howItswork.html">How It Works </a></li>
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="new-course"><a href="./landing/about.html">About us</a>
+                    <li class="active"><a class="hov-line" href="./index.html">Home</a></li>
+                    <li><a class="hov-line" href="./landing/about.html">About us</a>
 
 
                     </li>
-                    <li><a href="./landing/contact.html">Contact Us</a></li>
+                    <li><a class="hov-line" href="./landing/contact.html">Contact Us</a></li>
 
                     <li><a href="./landing/login.html">Log in</a></li>
 
@@ -125,7 +125,7 @@
 
                     <!-- Get Started Button -->
                     <a href="#" aria-label="Get started">
-                        <button
+                        <button id="Explore-btn"
                             class="bg-transparent py-2 px-8 rounded font-extrabold text-orange-600 border border-orange-400 hover:scale-110 hover:text-orange-700 transition shadow-[rgba(255,166,0,0.12)_0px_-7px_11px_0px_inset]">
                             Explore Properties
                         </button>
@@ -158,7 +158,7 @@
                 <div class="grid md:grid-cols-3 gap-8">
 
                     <div
-                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer hover:text-[#F78B02] hover:scale-150">
+                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer hover:text-[#F78B02] hover:scale-150">
                         <div class="text-red-500 mb-2 text-3xl">🏛️</div>
                         <h3 class="text-xl font-semibold mb-2 ">Blockchain Land Registry</h3>
                         <p class="text-gray-700">Securely records land ownership on the blockchain, ensuring immutable,
@@ -166,21 +166,23 @@
                     </div>
 
                     <div
-                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer">
+                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer">
                         <div class="text-red-500 mb-2 text-3xl">🔒</div>
                         <h3 class="text-xl font-semibold mb-2">Tamper-Proof Ownership</h3>
                         <p class="text-gray-700">Prevents unauthorized alterations to property records using
                             cryptographic validation and smart contracts.</p>
                     </div>
 
-                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer">
+                    <div
+                        class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer">
                         <div class="text-red-500 mb-2 text-3xl">👥</div>
                         <h3 class="text-xl font-semibold mb-2">Owner Verification</h3>
                         <p class="text-gray-700">Enables instant and secure verification of landowners through
                             decentralized on-chain records.</p>
                     </div>
 
-                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer">
+                    <div
+                        class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer">
                         <div class="text-red-500 mb-2 text-3xl">🌐</div>
                         <h3 class="text-xl font-semibold mb-2">Geo-Mapped Land Records</h3>
                         <p class="text-gray-700">Integrates geographic data with blockchain to visualize land ownership
@@ -188,14 +190,15 @@
                     </div>
 
                     <div
-                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer">
+                        class=" card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer">
                         <div class="text-red-500 mb-2 text-3xl">⚖️</div>
                         <h3 class="text-xl font-semibold mb-2">Fraud & Dispute Resolution</h3>
                         <p class="text-gray-700">Reduces fraud and ownership disputes by maintaining a single source of
                             truth verified by the network.</p>
                     </div>
 
-                    <div class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-white hover:cursor-pointer">
+                    <div
+                        class="card p-6 rounded-lg shadow-md hover:shadow-lg transition bg-[#FFE8CC] hover:cursor-pointer">
                         <div class="text-red-500 mb-2 text-3xl">📄</div>
                         <h3 class="text-xl font-semibold mb-2">Legal & Regulatory Compliance</h3>
                         <p class="text-gray-700">Ensures compliance with government land ownership regulations using
@@ -247,7 +250,7 @@
 
         <!-- How It Works -->
 
-        <section class="bg-gray-100 py-20 px-4">
+        <section id="works" class="bg-gray-100 py-20 px-4">
             <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
 
                 <!-- Timeline Content -->
