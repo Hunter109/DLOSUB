@@ -51,3 +51,15 @@ exploreScroll.addEventListener("click", (event) => {
 });
 
 
+
+function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const symbol = element.querySelector('.symbol');
+    answer.classList.toggle('hidden');
+
+    if (answer.classList.contains('hidden')) {
+        symbol.textContent = '+';
+    } else {
+        symbol.textContent = '−';
+    }
+}
